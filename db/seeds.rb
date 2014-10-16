@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Community.delete_all
+
+Community.create!(name: "NFLFanpage")
+
+Community.create!(name: "Reddit")
+
+Community.create!(name: "RubyFanpage")
+
+Community.create!(name: "PHPFanpage")
